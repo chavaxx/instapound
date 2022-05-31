@@ -1,5 +1,6 @@
 .greyText {
-	color: 7D7D7D;
+	color: #8e8e8e;
+  font-size: 12px;
 }
 
 .userBar {
@@ -9,9 +10,17 @@
 }
 
 .profileImage {
-  width: 12%;
+  width: 56px;
+  height: 56px;
   margin-right: 3%;
-  height: 100%;
+  border-radius: 50%;
+}
+
+.link {
+  font-size: 12px;
+  text-decoration: none;
+  color: #0095f6;
+  font-family: 'Segoe UI Bold';
 }
 
 .userNames {
@@ -25,12 +34,18 @@
 }
 
 .followSuggestionsHeader {
+  margin-top: 5px;
+  margin-bottom: 5px;
+
   display: flex;
   justify-content: space-between;
 }
 
 .followProfileImage {
-  width: 8%;
+  width: 32px;
+  margin-right: 8px;
+  border-radius: 50%;
+  height: 32px;
 }
 
 .followUserNames {
@@ -38,6 +53,15 @@
 }
 
 .linksAdditionalInfo {
+  margin-top: 32px;
+  color: #c7c7c7;
+  font-size: 12px;
 	display: flex;
 	flex-wrap: wrap
+}
+
+.altText {
+  margin-top: 16px;
+  color: #c7c7c7;
+  font-size: 12px;
 }

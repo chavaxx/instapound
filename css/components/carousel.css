@@ -41,6 +41,7 @@
     margin: 7px;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .name {

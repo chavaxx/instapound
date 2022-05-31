@@ -25,7 +25,7 @@
     width: 34px;
     height: 34px;
     position: absolute;
-    z-index: 10;
+    z-index: 1;
     border: 2px #80CB62 solid;
     border-radius: 40px;
     display: flex;
@@ -41,10 +41,11 @@
     margin-left: 48px;
 }
 
-.card .username {
+.username {
     color: #262626;
     font-size: 14px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .card .more_options {
@@ -77,13 +78,14 @@
 
     .card .post {
         width: 388px;
+        height: 388px;
     }
     
 }
 
 .card .post {
     width: 470px;
-    height: 350px;
+    height: 470px;
     object-position: left top;
 }
 
