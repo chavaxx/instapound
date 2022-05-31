@@ -1,0 +1,43 @@
+.greyText {
+	color: 7D7D7D;
+}
+
+.userBar {
+  display: flex;
+  justify-content: flex-start;
+  height: 80px;
+}
+
+.profileImage {
+  width: 12%;
+  margin-right: 3%;
+  height: 100%;
+}
+
+.userNames {
+  width: 80%
+}
+
+.suggestedFollower {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+
+.followSuggestionsHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.followProfileImage {
+  width: 8%;
+}
+
+.followUserNames {
+	width: 80%;
+}
+
+.linksAdditionalInfo {
+	display: flex;
+	flex-wrap: wrap
+}
