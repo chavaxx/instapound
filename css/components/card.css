@@ -6,19 +6,21 @@
     width: 470px;
     margin-bottom: 12px;
     margin-top: 6px;
+    border-radius: 8px;
 }
 
-.header {
+.card .header {
     padding: 10px;
     display: flex;
     flex-direction: row;
+
 }
 
-.image {
+.image_user {
     border-radius: 30px;
 }
 
-.border {
+.card .border {
     background-color: transparent;
     width: 34px;
     height: 34px;
@@ -29,25 +31,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    
 }
 
-.user_container {
+.card .user_container {
     margin-top: 5px;
     margin-bottom: 8px;
     margin-left: 48px;
 }
 
-.user {
+.card .username {
     color: #262626;
     font-size: 14px;
     font-weight: 500;
 }
 
-.more_options {
+.card .more_options {
     display: block;
     position: relative;
     float: right;
-    margin-left: 285px
+    margin-left: 285px;
+    
 
 }
 
@@ -70,19 +75,19 @@
         font-size: 12px;
     } */
 
-    .post {
+    .card .post {
         width: 388px;
     }
     
 }
 
-.post {
+.card .post {
     width: 470px;
     height: 350px;
     object-position: left top;
 }
 
-.body {
+.card .body {
     display: flex;
     flex-direction: column;
 }
