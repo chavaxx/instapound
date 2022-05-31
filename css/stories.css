@@ -1,0 +1,138 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.wrapperStories {
+    width: 40%;
+    height: 75px;
+    margin:20px auto;
+    border-radius: 8px;
+    display: flex;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    padding:20px 0;
+    position: absolute;
+}
+
+.wrapperStories .stories {
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+
+.wrapperStories .stories .storie {
+    width: 60px;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.wrapperStories .stories .storie:hover {
+    cursor: pointer;
+}
+
+.wrapperStories .stories .storie .img{
+    width: 100%;
+    height: 70%;
+    border-radius: 50%;
+}
+
+.wrapperStories .stories .storie .img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.user-name {
+    width: 100%;
+    height: 30%;
+}
+
+.user-name .username {
+        text-overflow: ellipsis;
+        overflow: hidden; 
+        width: 100%; 
+        height: 1.2em; 
+        white-space: nowrap;
+        margin-top: 7px; 
+        font-size: 12px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* MODAL STORIES STYLES */
+
+
+.modalStories {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background:black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modalStories .img-logo {
+    width: 100px;
+    height: auto;
+    padding: 20px;
+}
+
+.modalStories .carousel-stories {
+    width: 500px;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto
+}
+
+.modalStories .carousel-stories .storie {
+    width: 80%;
+    height: 100%;
+    background:white;
+    border-radius: 8px;
+    background-image: url('../img/perfil.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.modalStories .carousel-stories .storie .numberStories {
+    width: 90%;
+    height: 30px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modalStories .carousel-stories .storie .numberStories .numberStories-box {
+    width: 50px;
+    height: 3px;
+    border-radius: 10px;
+    background:white;
+}
+
+
+.modalStories .img-logo img {
+    width: 100%;
+    height: auto;
+}
+
+.modalStories .closeStorie {
+    width: 40px;
+    height: 40px;
+    padding:20px;
+}
+
+.modalStories .closeStorie .icon-close {
+    fill:white;
+    width: 100%;
+    height: 100%;
+}
+
+/* MODAL STORIES STYLES */
+
+
+
