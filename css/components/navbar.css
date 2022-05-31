@@ -5,7 +5,86 @@
 
 .main{
     width: 100vw;
-    height: 10vh;
-    background-color: aqua;
-    border-bottom: solid 3px #DBDBDB;
+    height: 9vh;
+    border-bottom: solid 1px #DBDBDB;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imgContainer{
+    width: 35%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 120px;
+    height: 40px;
+}
+
+.searchContainer{
+    width: 25%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #DBDBDB;
+    background-color: #EFEFEF;
+}
+
+.searchIcon{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #E3E3E3;
+}
+
+.searchbar{
+    border: none;
+    background-color: #EFEFEF;
+    font-size: 15px;
+    font-weight: lighter;
+    width: 100%;
+    height: 100%;
+}
+
+.searchbar:focus{
+    outline: none;
+}
+
+.iconContainer{
+    width: 45%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-left: 1.5vw;
+}
+
+.profile{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    margin-left: 1.5vw;
+}
+
+.pp{
+    width: 30px;
+    height: 30px;
+}
+
+.icon:hover{
+    cursor: pointer;
 }
